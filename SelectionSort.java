@@ -4,7 +4,7 @@ public class SelectionSort {
         for(int i = 0; i < len; i++) {
             int min = i;
             for(int j = i; j < len; j++) {
-                if(a[j] < a[i]) {
+                if(a[j] < a[min]) {
                     min = j;
                 }
             }
